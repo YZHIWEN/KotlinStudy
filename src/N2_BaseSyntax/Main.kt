@@ -1,4 +1,4 @@
-package BaseSyntax
+package N2_BaseSyntax
 
 /**
  * Created by Dazz on 2017/7/4.
