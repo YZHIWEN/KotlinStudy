@@ -39,11 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertyInMap.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PropertyInMap.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/N4_DelegatedProperties/PropertyInMap.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="228">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/N5_CallableReferences/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -79,6 +89,7 @@
         <option value="$PROJECT_DIR$/src/N4_DelegatedProperties/ObservableProperty.kt" />
         <option value="$PROJECT_DIR$/src/N4_DelegatedProperties/NotNullProperty.kt" />
         <option value="$PROJECT_DIR$/src/N4_DelegatedProperties/PropertyInMap.kt" />
+        <option value="$PROJECT_DIR$/src/N5_CallableReferences/Main.kt" />
       </list>
     </option>
   </component>
@@ -132,7 +143,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="N4_DelegatedProperties" />
+              <option name="myItemId" value="N5_CallableReferences" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -159,20 +170,7 @@
       <recent name="F:\ws\java\DemoStudy\src\HelloWorld" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.N4_DelegatedProperties.PropertyInMapKt">
-    <configuration default="false" name="N4_DelegatedProperties.CustomDelegateKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="N4_DelegatedProperties.CustomDelegateKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DemoStudy" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.N5_CallableReferences.MainKt">
     <configuration default="false" name="N4_DelegatedProperties.LazyPropertyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="N4_DelegatedProperties.LazyPropertyKt" />
@@ -215,6 +213,19 @@
     <configuration default="false" name="N4_DelegatedProperties.PropertyInMapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="N4_DelegatedProperties.PropertyInMapKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DemoStudy" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="N5_CallableReferences.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="N5_CallableReferences.MainKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -430,19 +441,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.CustomDelegateKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.LazyPropertyKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.ObservablePropertyKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.NotNullPropertyKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.PropertyInMapKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.LazyPropertyKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.ObservablePropertyKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.NotNullPropertyKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.PropertyInMapKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.N5_CallableReferences.MainKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.PropertyInMapKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.NotNullPropertyKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.ObservablePropertyKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.LazyPropertyKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.CustomDelegateKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.N5_CallableReferences.MainKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.PropertyInMapKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.NotNullPropertyKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.ObservablePropertyKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.N4_DelegatedProperties.LazyPropertyKt" />
       </list>
     </recent_temporary>
   </component>
@@ -651,8 +662,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/N4_DelegatedProperties/PropertyInMap.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="228">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/N5_CallableReferences/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
           <folding />
         </state>
       </provider>
