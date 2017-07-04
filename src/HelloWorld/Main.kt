@@ -1,3 +1,5 @@
+package HelloWorld
+
 /**
  * Created by Dazz on 2017/7/4.
  */
@@ -20,6 +22,6 @@ fun main(args: Array<String>) {
 
 class Greeter(val name: String) {
     fun greet() {
-        println("Greeter greet $name")
+        println("HelloWorld.Greeter greet $name")
     }
 }
