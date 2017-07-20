@@ -3,15 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DemoStudy.iml" filepath="$PROJECT_DIR$/DemoStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/InjectModule/InjectModule.iml" filepath="$PROJECT_DIR$/InjectModule/InjectModule.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/injekt.iml" filepath="$PROJECT_DIR$/.idea/modules/injekt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/injekt-api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/injekt-api.iml" group="injekt-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/injekt-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/injekt-api_main.iml" group="injekt-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/injekt-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/api/injekt-api_test.iml" group="injekt-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/injekt-core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/injekt-core.iml" group="injekt-core" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/injekt-core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/injekt-core_main.iml" group="injekt-core" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/injekt-core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/injekt-core_test.iml" group="injekt-core" />
     </modules>
   </component>
 </project>
