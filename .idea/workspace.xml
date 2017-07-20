@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbc8ee00-f226-4898-8516-1323b2e8206f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Functions/Main.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Functions/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/t.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Lambdas/Main.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Lambdas/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Functions/Main.kt" afterPath="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Functions/Main.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../injekt/.gradle/" />
@@ -47,13 +47,23 @@
         <entry file="file://$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Functions/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
-              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Lambdas/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Functions/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -75,6 +85,19 @@
                   <marker date="1500559842000" expanded="true" signature="3045:3074" ph="{...}" />
                   <marker date="1500559842000" expanded="true" signature="3235:3295" ph="{...}" />
                 </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Lambdas/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="336">
+                <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -842,8 +865,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/N4_DelegatedProperties/CustomDelegate.kt" />
-        <option value="$PROJECT_DIR$/src/N4_DelegatedProperties/LazyProperty.kt" />
         <option value="$PROJECT_DIR$/src/N4_DelegatedProperties/ObservableProperty.kt" />
         <option value="$PROJECT_DIR$/src/N4_DelegatedProperties/NotNullProperty.kt" />
         <option value="$PROJECT_DIR$/src/N4_DelegatedProperties/PropertyInMap.kt" />
@@ -891,8 +912,10 @@
         <option value="$PROJECT_DIR$/src/K4_Other/Ranges/Main.kt" />
         <option value="$PROJECT_DIR$/src/K4_Other/Ranges/readme.md" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Functions/Main.kt" />
         <option value="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Functions/readme.md" />
+        <option value="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Lambdas/readme.md" />
+        <option value="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Functions/Main.kt" />
+        <option value="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Lambdas/Main.kt" />
       </list>
     </option>
   </component>
@@ -1087,6 +1110,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Lambdas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KotlinStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KotlinStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="K3_FunctionsAndLambdas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Functions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1132,20 +1177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.K3_FunctionsAndLambdas.Functions.MainKt">
-    <configuration default="false" name="uy.kohesive.injekt.example.SmallestExampleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="uy.kohesive.injekt.example.SmallestExampleKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="InjectModule" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.K3_FunctionsAndLambdas.Lambdas.MainKt">
     <configuration default="false" name="TTTKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TTTKt" />
@@ -1188,6 +1220,19 @@
     <configuration default="false" name="K3_FunctionsAndLambdas.Functions.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="K3_FunctionsAndLambdas.Functions.MainKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DemoStudy" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="K3_FunctionsAndLambdas.Lambdas.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="K3_FunctionsAndLambdas.Lambdas.MainKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -1442,19 +1487,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Kotlin.StKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.uy.kohesive.injekt.example.SmallestExampleKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.TTTKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.K4_Other.OperatorOverloading.MainKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.K4_Other.Ranges.MainKt" />
-      <item index="5" class="java.lang.String" itemvalue="Kotlin.K3_FunctionsAndLambdas.Functions.MainKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.TTTKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.K4_Other.OperatorOverloading.MainKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.K4_Other.Ranges.MainKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.K3_FunctionsAndLambdas.Functions.MainKt" />
+      <item index="5" class="java.lang.String" itemvalue="Kotlin.K3_FunctionsAndLambdas.Lambdas.MainKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.K3_FunctionsAndLambdas.Functions.MainKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.K4_Other.Ranges.MainKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.K4_Other.OperatorOverloading.MainKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.TTTKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.uy.kohesive.injekt.example.SmallestExampleKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.K3_FunctionsAndLambdas.Lambdas.MainKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.K3_FunctionsAndLambdas.Functions.MainKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.K4_Other.Ranges.MainKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.K4_Other.OperatorOverloading.MainKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.TTTKt" />
       </list>
     </recent_temporary>
   </component>
@@ -1596,8 +1641,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../injekt/core/src/main/kotlin/uy/kohesive/injekt/Injekt.kt" />
-    <entry file="file://$PROJECT_DIR$/InjectModule/src/st.kt" />
     <entry file="file://$PROJECT_DIR$/../injekt/core/src/example/kotlin/uy/kohesive/injekt/example/MyApp.kt" />
     <entry file="file://$PROJECT_DIR$/../injekt/core/src/main/kotlin/uy/kohesive/injekt/registry/default/DefaultRegistrar.kt" />
     <entry file="file://$PROJECT_DIR$/../injekt/api/src/main/kotlin/uy/kohesive/injekt/api/Exceptions.kt" />
@@ -1705,6 +1748,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1862,14 +1906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Functions/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Functions/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1893,6 +1929,33 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Lambdas/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="336">
+            <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Functions/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Lambdas/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
