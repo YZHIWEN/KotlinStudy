@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbc8ee00-f226-4898-8516-1323b2e8206f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../injekt/.gradle/" />
@@ -83,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Inject/sample/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="885">
               <caret line="37" column="8" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="49" selection-end-column="49" />
               <folding>
                 <element signature="e#23#117#0" expanded="true" />
@@ -95,12 +89,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Inject/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+              <first_editor relative-caret-position="192">
+                <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
                 <folding>
                   <marker date="1500643157000" expanded="true" signature="342:542" ph="{...}" />
                   <marker date="1500643157000" expanded="true" signature="382:540" ph="{...}" />
@@ -1764,24 +1758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inject/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-            <folding>
-              <marker date="1500643157000" expanded="true" signature="342:542" ph="{...}" />
-              <marker date="1500643157000" expanded="true" signature="382:540" ph="{...}" />
-              <marker date="1500643157000" expanded="true" signature="575:680" ph="{...}" />
-              <marker date="1500643157000" expanded="true" signature="615:678" ph="{...}" />
-              <marker date="1500643157000" expanded="true" signature="821:846" ph="/** 扩展Activity的inject方法 ...*/" />
-              <marker date="1500643157000" expanded="true" signature="1084:1273" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -1792,11 +1768,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Inject/sample/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="885">
           <caret line="37" column="8" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="49" selection-end-column="49" />
           <folding>
             <element signature="e#23#117#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inject/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="192">
+            <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <folding>
+              <marker date="1500643157000" expanded="true" signature="342:542" ph="{...}" />
+              <marker date="1500643157000" expanded="true" signature="382:540" ph="{...}" />
+              <marker date="1500643157000" expanded="true" signature="575:680" ph="{...}" />
+              <marker date="1500643157000" expanded="true" signature="615:678" ph="{...}" />
+              <marker date="1500643157000" expanded="true" signature="821:846" ph="/** 扩展Activity的inject方法 ...*/" />
+              <marker date="1500643157000" expanded="true" signature="1084:1273" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

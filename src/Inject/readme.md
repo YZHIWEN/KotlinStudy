@@ -6,7 +6,7 @@
 
 ### 基本框架
 
-![](./arg/inject.png)
+![](./art/inject.png)
 
 ##### Module
 - 数据提供者，通过Module提供的register提供数据，包括键值对以及对象
