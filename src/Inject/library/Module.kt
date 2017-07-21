@@ -12,12 +12,10 @@ abstract class Module {
     }
 
     fun <T : Any> registerProperty(key: String, value: T) {
-        println("add property {$key : $value}")
         ModuleManager.registerProperty(key, value)
     }
 
     fun <T : Any> registerProperty(t: T) {
-        println("add property {$t}")
         ModuleManager.registerProperty(t)
     }
 

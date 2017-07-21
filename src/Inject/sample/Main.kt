@@ -24,9 +24,15 @@ class MyModule : Module() {
                 registerProperty(Person("dazz", 100))
                 registerProperty("tag", "this is tag")
                 registerProperty("count", 12)
-                registerProperty(Service())
-                //...
+                //... so on
             }
+}
+
+class ServiceModule : Module() {
+    override fun onCreate() = provide {
+        registerProperty(Service())
+        //... so on
+    }
 }
 
 // 数据使用者
@@ -38,8 +44,10 @@ class Activity {
     val service by inject<Service>()
 }
 
+// 程序入口
 fun main(args: Array<String>) {
     ModuleManager.registerModule(MyModule())
+    ModuleManager.registerModule(ServiceModule())
 
     val activity = Activity()
     println(activity.tag)
