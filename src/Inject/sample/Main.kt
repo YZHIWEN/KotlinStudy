@@ -1,7 +1,7 @@
 package Inject.sample
 
 import Inject.library.Module
-import Inject.library.ModuleManager
+import Inject.library.ModuleManager.registerModule
 import Inject.library.provide
 
 /**
@@ -19,13 +19,12 @@ class Service {
 
 // module
 class MyModule : Module() {
-    override fun onCreate() =
-            provide {
-                registerProperty(Person("dazz", 100))
-                registerProperty("tag", "this is tag")
-                registerProperty("count", 12)
-                //... so on
-            }
+    override fun onCreate() = provide {
+        registerProperty(Person("dazz", 100))
+        registerProperty("tag", "this is tag")
+        registerProperty("count", 12)
+        //... so on
+    }
 }
 
 class ServiceModule : Module() {
@@ -46,8 +45,8 @@ class Activity {
 
 // 程序入口
 fun main(args: Array<String>) {
-    ModuleManager.registerModule(MyModule())
-    ModuleManager.registerModule(ServiceModule())
+    registerModule(MyModule())
+    registerModule(ServiceModule())
 
     val activity = Activity()
     println(activity.tag)

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbc8ee00-f226-4898-8516-1323b2e8206f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Inject/library/InjectExt.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Inject/sample/InjectExt.kt" afterPath="$PROJECT_DIR$/src/Inject/sample/SampleExt.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Inject/library/Module.kt" afterPath="$PROJECT_DIR$/src/Inject/library/Module.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Inject/sample/InjectExt.kt" afterPath="$PROJECT_DIR$/src/Inject/sample/InjectExt.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Inject/sample/Main.kt" afterPath="$PROJECT_DIR$/src/Inject/sample/Main.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Inject/library/ModuleManager.kt" afterPath="$PROJECT_DIR$/src/Inject/library/ModuleManager.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../injekt/.gradle/" />
@@ -45,8 +46,8 @@
       <file leaf-file-name="Module.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Inject/library/Module.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="96">
+              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -55,18 +56,28 @@
       <file leaf-file-name="ModuleManager.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Inject/library/ModuleManager.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+            <state relative-caret-position="168">
+              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SampleExt.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Inject/sample/SampleExt.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="InjectExt.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Inject/sample/InjectExt.kt">
+        <entry file="file://$PROJECT_DIR$/src/Inject/library/InjectExt.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="192">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,10 +86,10 @@
       <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Inject/sample/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="384">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
-                <element signature="e#23#117#0" expanded="true" />
+                <element signature="e#23#132#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -563,7 +574,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/K2_Classes_And_Objects/Classes/NestedClasses.kt" />
         <option value="$PROJECT_DIR$/src/K2_Classes_And_Objects/Classes/readme.md" />
         <option value="$PROJECT_DIR$/src/K2_Classes_And_Objects/Classes/readme/Class.md" />
         <option value="$PROJECT_DIR$/src/K2_Classes_And_Objects/Classes/Inheritance.kt" />
@@ -609,11 +619,12 @@
         <option value="$PROJECT_DIR$/src/Inject/Module.kt" />
         <option value="$PROJECT_DIR$/src/Inject/ModuleManager.kt" />
         <option value="$PROJECT_DIR$/src/Inject/Main.kt" />
-        <option value="$PROJECT_DIR$/src/Inject/library/ModuleManager.kt" />
         <option value="$PROJECT_DIR$/src/Inject/sample/Ext.kt" />
         <option value="$PROJECT_DIR$/src/Inject/sample/InjectExt.kt" />
         <option value="$PROJECT_DIR$/src/Inject/sample/Main.kt" />
         <option value="$PROJECT_DIR$/src/Inject/library/Module.kt" />
+        <option value="$PROJECT_DIR$/src/Inject/library/ModuleManager.kt" />
+        <option value="$PROJECT_DIR$/src/Inject/library/InjectExt.kt" />
       </list>
     </option>
   </component>
@@ -1175,7 +1186,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25547445" sideWeight="0.49320653" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25547445" sideWeight="0.49320653" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919708" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3080292" sideWeight="0.4918478" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16481334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1267,13 +1278,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-runtime-sources.jar!/kotlin/internal/progressionUtil.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/K4_Other/Ranges/readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -1687,36 +1691,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inject/sample/InjectExt.kt">
+    <entry file="file://$PROJECT_DIR$/src/Inject/sample/SampleExt.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Inject/library/ModuleManager.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        <state relative-caret-position="168">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Inject/library/Module.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="96">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inject/library/InjectExt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Inject/sample/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="384">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="e#23#117#0" expanded="true" />
+            <element signature="e#23#132#0" expanded="true" />
           </folding>
         </state>
       </provider>
