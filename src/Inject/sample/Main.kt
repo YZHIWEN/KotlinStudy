@@ -8,25 +8,16 @@ import Inject.library.provide
  * Created by yangzhiwen on 17/7/21.
  */
 
-inline fun <reified V> Activity.inject(key: String): Lazy<V?> = lazy { ModuleManager.getProperty<V>(key) }
-
-inline fun <reified V> Activity.inject(): Lazy<V?> = lazy { ModuleManager.getProperty<V>() }
-
+// 数据
 data class Person(var name: String, var age: Int)
+
 class Service {
     fun start() {
         println("start service!!")
     }
 }
 
-class Activity {
-    val tag by inject<String>("tag")
-    val count by inject<Int>("count")
-    val tagChar by inject<Char>("tag")
-    val person by inject<Person>()
-    val service by inject<Service>()
-}
-
+// module
 class MyModule : Module() {
     override fun onCreate() =
             provide {
@@ -38,11 +29,19 @@ class MyModule : Module() {
             }
 }
 
-fun main(args: Array<String>) {
-    val myModule = MyModule()
-    myModule.onCreate()
+// 数据使用者
+class Activity {
+    val tag by inject<String>("tag")
+    val count by inject<Int>("count")
+    val tagChar by inject<Char>("tag")
+    val person by inject<Person>()
+    val service by inject<Service>()
+}
 
-    var activity = Activity()
+fun main(args: Array<String>) {
+    ModuleManager.registerModule(MyModule())
+
+    val activity = Activity()
     println(activity.tag)
     println(activity.count)
     println(activity.tagChar)

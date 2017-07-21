@@ -9,6 +9,7 @@ object ModuleManager {
 
     var map = mutableMapOf<String, Any>()
     var set = mutableSetOf<Any>()
+    var modules = mutableSetOf<Module>()
 
     inline fun <reified T> getProperty(): T? {
         val property = set.filter { /*it.javaClass == T::class is false*/ it.javaClass == T::class.java }.firstOrNull()
@@ -22,11 +23,15 @@ object ModuleManager {
         else return null
     }
 
-    fun <T : Any> addProperty(key: String, value: T) {
+    fun <T : Any> registerProperty(key: String, value: T) {
         map[key] = value
     }
 
-    fun <T : Any> addProperty(property: T) {
+    fun <T : Any> registerProperty(property: T) {
         set.add(property)
+    }
+
+    fun <T : Module> registerModule(moudle: T) {
+        modules.add(moudle)
     }
 }
