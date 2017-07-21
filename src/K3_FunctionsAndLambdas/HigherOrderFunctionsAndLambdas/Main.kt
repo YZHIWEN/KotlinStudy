@@ -23,10 +23,16 @@ class Config {
     }
 }
 
-fun <T> T.build(create: T.() -> Unit): T {
-    create()
-    return this
-}
+//fun <T> T.build(create: T.() -> Unit): T {
+//    create()
+//    return this
+//}
+
+//fun <T> T.build(create: T.() -> Unit): T {
+//    return apply(create)
+//}
+
+fun <T> T.build(init: T.() -> Unit) = apply(init)
 
 class HTML {
     fun body() {
@@ -61,7 +67,8 @@ fun main(args: Array<String>) {
     }
 
     // 这里其实就是调用html方法，传入lambda表达式，在这个lambda表达式的接受者是HTML，所以可以调用HTML的方法，这个lambda表达式在html方法中被调用也就是init方法
-    html {       // lambda with receiver begins here
+    html {
+        // lambda with receiver begins here
         body()   // calling a method on the receiver object
     }
 

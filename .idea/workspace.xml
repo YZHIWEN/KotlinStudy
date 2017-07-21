@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbc8ee00-f226-4898-8516-1323b2e8206f" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Lambdas/Main.kt" afterPath="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/HigherOrderFunctionsAndLambdas/Main.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Lambdas/readme.md" afterPath="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/HigherOrderFunctionsAndLambdas/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/HigherOrderFunctionsAndLambdas/Main.kt" afterPath="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/HigherOrderFunctionsAndLambdas/Main.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../injekt/.gradle/" />
@@ -42,43 +41,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/K3_FunctionsAndLambdas/HigherOrderFunctionsAndLambdas/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1553">
-                <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-                <folding>
-                  <marker date="1500606268000" expanded="true" signature="606:622" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="636:670" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="1487:1538" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="1552:1617" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="1928:1945" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="2359:2454" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="2723:2780" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="2740:2778" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="2820:2877" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="2982:3083" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="3155:3187" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="3202:3491" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="3232:3270" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="3301:3343" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="3377:3419" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="3463:3489" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="3509:3654" ph="{...}" />
-                  <marker date="1500606268000" expanded="true" signature="3608:3652" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="ThreadsKt.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-runtime.jar!/kotlin/concurrent/ThreadsKt.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/K3_FunctionsAndLambdas/HigherOrderFunctionsAndLambdas/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="409">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Standard.kt" pinned="false" current-in-tab="false">
+        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-runtime-sources.jar!/kotlin/util/Standard.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="48" column="24" lean-forward="false" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -612,8 +599,8 @@
         <option value="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Lambdas/Main.kt" />
         <option value="$PROJECT_DIR$/src/Inject/Module.kt" />
         <option value="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/Lambdas/readme.md" />
-        <option value="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/HigherOrderFunctionsAndLambdas/Main.kt" />
         <option value="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/HigherOrderFunctionsAndLambdas/readme.md" />
+        <option value="$PROJECT_DIR$/src/K3_FunctionsAndLambdas/HigherOrderFunctionsAndLambdas/Main.kt" />
       </list>
     </option>
   </component>
@@ -689,24 +676,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KotlinStudy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KotlinStudy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="K4_Other" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1165,10 +1134,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31167883" sideWeight="0.49320653" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31167883" sideWeight="0.49320653" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919708" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39124086" sideWeight="0.4918478" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16481334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16481334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919708" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1256,8 +1225,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../injekt/api/src/main/kotlin/uy/kohesive/injekt/api/Exceptions.kt" />
-    <entry file="file://$PROJECT_DIR$/../injekt/api/src/main/kotlin/uy/kohesive/injekt/api/Factory.kt" />
     <entry file="file://$PROJECT_DIR$/../injekt/api/src/main/kotlin/uy/kohesive/injekt/api/Modules.kt" />
     <entry file="file://$PROJECT_DIR$/../injekt/api/src/main/kotlin/uy/kohesive/injekt/api/Registrar.kt" />
     <entry file="file://$PROJECT_DIR$/../injekt/api/src/main/kotlin/uy/kohesive/injekt/api/Registry.kt" />
@@ -1564,18 +1531,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/K3_FunctionsAndLambdas/HigherOrderFunctionsAndLambdas/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="60" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/K3_FunctionsAndLambdas/HigherOrderFunctionsAndLambdas/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1553">
+          <first_editor relative-caret-position="681">
             <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
             <folding>
               <marker date="1500606268000" expanded="true" signature="606:622" ph="{...}" />
@@ -1599,6 +1558,30 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-runtime.jar!/kotlin/concurrent/ThreadsKt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-runtime-sources.jar!/kotlin/util/Standard.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="48" column="24" lean-forward="false" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/K3_FunctionsAndLambdas/HigherOrderFunctionsAndLambdas/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
