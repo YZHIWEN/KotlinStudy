@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbc8ee00-f226-4898-8516-1323b2e8206f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Inject/library/InjectExt.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Inject/sample/InjectExt.kt" afterPath="$PROJECT_DIR$/src/Inject/sample/SampleExt.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Inject/library/Module.kt" afterPath="$PROJECT_DIR$/src/Inject/library/Module.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Inject/library/ModuleManager.kt" afterPath="$PROJECT_DIR$/src/Inject/library/ModuleManager.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Inject/readme.md" afterPath="$PROJECT_DIR$/src/Inject/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Inject/sample/Main.kt" afterPath="$PROJECT_DIR$/src/Inject/sample/Main.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../injekt/.gradle/" />
@@ -56,8 +54,8 @@
       <file leaf-file-name="ModuleManager.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Inject/library/ModuleManager.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="792">
+              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -66,9 +64,48 @@
       <file leaf-file-name="SampleExt.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Inject/sample/SampleExt.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="168">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inject.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Inject/art/inject.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Inject/sample/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="49" column="49" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="49" selection-end-column="49" />
+              <folding>
+                <element signature="e#23#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Inject/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="24">
+                <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+                <folding>
+                  <marker date="1500642898000" expanded="true" signature="296:496" ph="{...}" />
+                  <marker date="1500642898000" expanded="true" signature="336:494" ph="{...}" />
+                  <marker date="1500642898000" expanded="true" signature="529:634" ph="{...}" />
+                  <marker date="1500642898000" expanded="true" signature="569:632" ph="{...}" />
+                  <marker date="1500642898000" expanded="true" signature="775:800" ph="/** 扩展Activity的inject方法 ...*/" />
+                  <marker date="1500642898000" expanded="true" signature="1038:1227" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -76,21 +113,9 @@
       <file leaf-file-name="InjectExt.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Inject/library/InjectExt.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Inject/sample/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="e#23#132#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -574,8 +599,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/K2_Classes_And_Objects/Classes/readme.md" />
-        <option value="$PROJECT_DIR$/src/K2_Classes_And_Objects/Classes/readme/Class.md" />
         <option value="$PROJECT_DIR$/src/K2_Classes_And_Objects/Classes/Inheritance.kt" />
         <option value="$PROJECT_DIR$/src/K2_Classes_And_Objects/Classes/Inheritance.md" />
         <option value="$PROJECT_DIR$/src/K2_Classes_And_Objects/Classes/Interfaces/Main.kt" />
@@ -621,10 +644,12 @@
         <option value="$PROJECT_DIR$/src/Inject/Main.kt" />
         <option value="$PROJECT_DIR$/src/Inject/sample/Ext.kt" />
         <option value="$PROJECT_DIR$/src/Inject/sample/InjectExt.kt" />
-        <option value="$PROJECT_DIR$/src/Inject/sample/Main.kt" />
         <option value="$PROJECT_DIR$/src/Inject/library/Module.kt" />
         <option value="$PROJECT_DIR$/src/Inject/library/ModuleManager.kt" />
         <option value="$PROJECT_DIR$/src/Inject/library/InjectExt.kt" />
+        <option value="$PROJECT_DIR$/src/Inject/sample/Main.kt" />
+        <option value="$PROJECT_DIR$/src/Inject/sample/SampleExt.kt" />
+        <option value="$PROJECT_DIR$/src/Inject/readme.md" />
       </list>
     </option>
   </component>
@@ -765,6 +790,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KotlinStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KotlinStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="art" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1188,7 +1235,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25547445" sideWeight="0.49320653" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919708" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3080292" sideWeight="0.4918478" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3080292" sideWeight="0.4918478" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16481334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919708" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1278,14 +1325,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/K4_Other/Ranges/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-runtime-sources.jar!/kotlin/ranges/Ranges.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -1592,17 +1631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inject/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-runtime-sources.jar!/kotlin/util/Standard.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1691,22 +1719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inject/sample/SampleExt.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inject/library/ModuleManager.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Inject/library/Module.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -1715,21 +1727,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inject/library/ModuleManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Inject/library/InjectExt.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inject/art/inject.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inject/sample/SampleExt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Inject/sample/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="558">
+          <caret line="49" column="49" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="49" selection-end-column="49" />
           <folding>
-            <element signature="e#23#132#0" expanded="true" />
+            <element signature="e#23#117#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inject/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="24">
+            <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <folding>
+              <marker date="1500642898000" expanded="true" signature="296:496" ph="{...}" />
+              <marker date="1500642898000" expanded="true" signature="336:494" ph="{...}" />
+              <marker date="1500642898000" expanded="true" signature="529:634" ph="{...}" />
+              <marker date="1500642898000" expanded="true" signature="569:632" ph="{...}" />
+              <marker date="1500642898000" expanded="true" signature="775:800" ph="/** 扩展Activity的inject方法 ...*/" />
+              <marker date="1500642898000" expanded="true" signature="1038:1227" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

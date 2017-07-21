@@ -27,6 +27,7 @@ class MyModule : Module() {
     }
 }
 
+// module
 class ServiceModule : Module() {
     override fun onCreate() = provide {
         registerProperty(Service())
