@@ -1,4 +1,4 @@
-package K5_Collections
+package K5_FunctionalProgramming
 
 /**
  * Created by yangzhiwen on 17/7/21.
