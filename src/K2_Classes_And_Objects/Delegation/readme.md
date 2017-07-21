@@ -48,6 +48,33 @@ println(e.p)
 
 - 见官方文档和中文翻译pdf
 
+#### Lazy
+- lazy() is a function that takes a lambda and returns an instance of Lazy<T> which can serve as a delegate for implementing a lazy property: 
+- lazy 是一个接受一个lambda表达式和返回Lazy<T>实例的函数，能够作为代理实现lazy property
+
+
+- the first call to get() executes the lambda passed to lazy() and remembers the result, subsequent calls to get() simply return the remembered result.
+- 原理：第一次调用属性的get的时候通过lambda表达式生成属性值并记录，下次调用时仅仅result缓存的属性值
+
+```kotlin
+val lazyValue: String by lazy {
+    println("computed!")
+    "Hello"
+}
+
+fun main(args: Array<String>) {
+    println(lazyValue)
+    println(lazyValue)
+}
+
+//computed!
+//Hello
+//Hello
+```
+
+##### 并发情况
+- By default, the evaluation of lazy properties is synchronized: the value is computed only in one thread, and all threads will see the same value. If the synchronization of initialization delegate is not required, so that multiple threads can execute it simultaneously, pass LazyThreadSafetyMode.PUBLICATION as a parameter to the lazy() function. And if you're sure that the initialization will always happen on a single thread, you can use LazyThreadSafetyMode.NONE mode, which doesn't incur any thread-safety guarantees and the related overhead.
+
 ### 属性代理要求
 
 
