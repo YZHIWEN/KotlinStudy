@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbc8ee00-f226-4898-8516-1323b2e8206f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Inject/art/inject.png" afterPath="$PROJECT_DIR$/src/Inject/art/inject.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,20 +61,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SampleExt.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SampleExt.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Inject/sample/SampleExt.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inject.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Inject/art/inject.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -89,19 +83,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Inject/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="192">
-                <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <first_editor relative-caret-position="264">
+                <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
                 <folding>
-                  <marker date="1500643157000" expanded="true" signature="342:542" ph="{...}" />
-                  <marker date="1500643157000" expanded="true" signature="382:540" ph="{...}" />
-                  <marker date="1500643157000" expanded="true" signature="575:680" ph="{...}" />
-                  <marker date="1500643157000" expanded="true" signature="615:678" ph="{...}" />
-                  <marker date="1500643157000" expanded="true" signature="821:846" ph="/** 扩展Activity的inject方法 ...*/" />
-                  <marker date="1500643157000" expanded="true" signature="1084:1273" ph="{...}" />
+                  <marker date="1500643399000" expanded="true" signature="342:542" ph="{...}" />
+                  <marker date="1500643399000" expanded="true" signature="382:540" ph="{...}" />
+                  <marker date="1500643399000" expanded="true" signature="575:680" ph="{...}" />
+                  <marker date="1500643399000" expanded="true" signature="615:678" ph="{...}" />
+                  <marker date="1500643399000" expanded="true" signature="821:846" ph="/** 扩展Activity的inject方法 ...*/" />
+                  <marker date="1500643399000" expanded="true" signature="1084:1273" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -657,8 +651,8 @@
         <option value="$PROJECT_DIR$/src/Inject/library/InjectExt.kt" />
         <option value="$PROJECT_DIR$/src/Inject/sample/Main.kt" />
         <option value="$PROJECT_DIR$/src/Inject/sample/SampleExt.kt" />
-        <option value="$PROJECT_DIR$/src/Inject/readme.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Inject/readme.md" />
       </list>
     </option>
   </component>
@@ -1745,19 +1739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inject/art/inject.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inject/sample/SampleExt.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -1779,18 +1760,31 @@
     <entry file="file://$PROJECT_DIR$/src/Inject/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="192">
-            <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <first_editor relative-caret-position="264">
+            <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             <folding>
-              <marker date="1500643157000" expanded="true" signature="342:542" ph="{...}" />
-              <marker date="1500643157000" expanded="true" signature="382:540" ph="{...}" />
-              <marker date="1500643157000" expanded="true" signature="575:680" ph="{...}" />
-              <marker date="1500643157000" expanded="true" signature="615:678" ph="{...}" />
-              <marker date="1500643157000" expanded="true" signature="821:846" ph="/** 扩展Activity的inject方法 ...*/" />
-              <marker date="1500643157000" expanded="true" signature="1084:1273" ph="{...}" />
+              <marker date="1500643399000" expanded="true" signature="342:542" ph="{...}" />
+              <marker date="1500643399000" expanded="true" signature="382:540" ph="{...}" />
+              <marker date="1500643399000" expanded="true" signature="575:680" ph="{...}" />
+              <marker date="1500643399000" expanded="true" signature="615:678" ph="{...}" />
+              <marker date="1500643399000" expanded="true" signature="821:846" ph="/** 扩展Activity的inject方法 ...*/" />
+              <marker date="1500643399000" expanded="true" signature="1084:1273" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inject/art/inject.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inject/sample/SampleExt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
