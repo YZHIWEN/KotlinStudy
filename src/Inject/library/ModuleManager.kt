@@ -1,4 +1,4 @@
-package Inject
+package Inject.library
 
 
 /**
@@ -10,8 +10,10 @@ object ModuleManager {
     var map = mutableMapOf<String, Any>()
     var set = mutableSetOf<Any>()
 
-    inline fun <reified T> getProperty(): Any? {
-        return set.filter { it.javaClass.toString() == T::class.toString() }.firstOrNull()
+    inline fun <reified T> getProperty(): T? {
+        val property = set.filter { /*it.javaClass == T::class is false*/ it.javaClass == T::class.java }.firstOrNull()
+        if (property != null && property is T) return property
+        else return null
     }
 
     inline fun <reified T> getProperty(key: String): T? {
