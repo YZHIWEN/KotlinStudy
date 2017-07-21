@@ -1,7 +1,7 @@
 package Inject.sample
 
 import Inject.library.Module
-import Inject.library.ModuleManager.registerModule
+import Inject.library.ModuleManager
 import Inject.library.provide
 
 /**
@@ -45,8 +45,8 @@ class Activity {
 
 // 程序入口
 fun main(args: Array<String>) {
-    registerModule(MyModule())
-    registerModule(ServiceModule())
+    ModuleManager.registerModule(MyModule())
+    ModuleManager.registerModule(ServiceModule())
 
     val activity = Activity()
     println(activity.tag)
