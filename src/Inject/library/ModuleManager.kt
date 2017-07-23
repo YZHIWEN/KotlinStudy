@@ -11,7 +11,7 @@ object ModuleManager {
     var set = mutableSetOf<Any>()
     var modules = mutableSetOf<Module>()
 
-    inline fun <reified T> getProperty(): T? {
+    inline fun <reified T : Any> getProperty(): T? {
         val property = set.filter { /*it.javaClass == T::class is false*/ it.javaClass == T::class.java }.firstOrNull()
         if (property != null && property is T) return property
         else return null
