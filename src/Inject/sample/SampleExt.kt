@@ -11,4 +11,4 @@ import Inject.library.ModuleManager
  */
 inline fun <reified V> Activity.inject(key: String): Lazy<V?> = lazy { ModuleManager.getProperty<V>(key) }
 
-inline fun <reified V> Activity.inject(): Lazy<V?> = lazy { ModuleManager.getProperty<V>() }
+inline fun <reified V : Any> Activity.inject(): Lazy<V?> = lazy { ModuleManager.getProperty<V>() }
