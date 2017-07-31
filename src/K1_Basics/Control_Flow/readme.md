@@ -1,6 +1,7 @@
 ### if
 
-- In Kotlin, if is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else), because ordinary if works fine in this role.
+- In Kotlin, if is an expression, i.e. it returns a value. 
+- Therefore there is no ternary operator (condition ? then : else), because ordinary if works fine in this role.
 
 ```kotlin
 // Traditional usage  传统用法
@@ -27,9 +28,26 @@ val max = if (a > b) {
 }
 ```
 
+```kotlin
+fun max(a: Int, b: Int) = if (a > b) a else b
+```
+
 ### When Expression
 - when replaces the switch operator 
+```kotlin
+when (x) {
+    in 1..10 -> print("x is in the range")
+    in validNumbers -> print("x is valid")
+    !in 10..20 -> print("x is outside the range")
+    else -> print("none of the above")
+}
+```
 
+```kotlin
+fun change(x: Int) = when(x) {
+  //....
+}
+```
 
 ### For Loops
 
