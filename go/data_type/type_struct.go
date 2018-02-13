@@ -19,6 +19,8 @@ type admin struct {
 // 声明新类型
 // int64类型叫作Duration的基础类型
 // 不过Go不认为Duration和int64是同一种类型
+
+// 编译器只允许为命名的用户定义的类型声明方法
 type Duration int64
 
 func main() {
